@@ -1,0 +1,15 @@
+{
+    "name": "tm-t-header",
+    "version": "4.1.0",
+    "description": "pc header",
+    "scripts": {
+        "build": "av auto; npm publish"
+    },
+    "main": "./index1.vue",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "dependencies": {
+        "store": "^1.3.20"
+    }
+}

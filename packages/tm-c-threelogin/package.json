@@ -1,0 +1,14 @@
+{
+  "name": "tm-c-threelogin",
+  "version": "0.0.8",
+  "description": "a crop for img, include upload",
+  "main": "index.vue",
+  "publishConfig": {
+    "registry": "https://repo.3dker.cn/repository/private-npm/"
+  },
+  "scripts": {
+    "build": "av auto; npm publish;"
+  },
+  "author": "lvjl",
+  "license": "ISC"
+}

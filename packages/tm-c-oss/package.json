@@ -1,0 +1,14 @@
+{
+    "name": "tm-c-oss",
+    "version": "0.0.10",
+    "description": "封装的 oss 的傻瓜式函数",
+    "main": "index.js",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "author": "qsm",
+    "license": "MIT"
+}

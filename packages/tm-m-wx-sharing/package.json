@@ -1,0 +1,19 @@
+{
+    "name": "tm-m-wx-sharing",
+    "version": "0.1.6",
+    "description": "微信浏览器内页面分享插件\ntm-c-captcha@0.1.4 去掉error中createClient，使用重连策略\ntm-c-captcha@0.1.5 优化重连策略，以前Redis服务重启之后，或长时间断开之后，客户端Redis是一直断了，",
+    "main": "index.vue",
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "dependencies": {
+        "redis": "2.7.1",
+        "sha1": "1.1.1",
+        "superagent": "3.5.2"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "author": "lvzy",
+    "license": "ISC"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "tm-m-expandselect",
+    "version": "1.0.3",
+    "description": "展开带选中下拉框",
+    "author": "lvjl",
+    "main": "index.vue",
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    }
+}

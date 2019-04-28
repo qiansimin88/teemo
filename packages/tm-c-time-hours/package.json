@@ -1,0 +1,14 @@
+{
+    "name": "tm-c-time-hours",
+    "version": "0.0.4",
+    "description": "简陋版，特殊需求的版本，勿用",
+    "main": "index.vue",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "author": "qsm",
+    "license": "MIT"
+}

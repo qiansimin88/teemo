@@ -1,0 +1,13 @@
+{
+    "name": "tm-t-fullpreview",
+    "version": "1.0.1",
+    "description": "PC全部预览大图",
+    "author": "lvjl",
+    "main": "index.vue",
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    }
+}

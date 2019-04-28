@@ -1,0 +1,40 @@
+[art-wrap] {
+    width: 100%;
+    overflow: hidden;
+    word-break: break-all;
+    font-size: .3rem;
+    [data-userid] {
+        word-break: break-all;
+        word-wrap: break-word;
+        cursor: pointer;
+        color: #4ab7ed;
+        text-decoration: none;
+    }
+    ol, ul{
+        padding-left: 1em;
+    }
+    p {
+        line-height: 2;
+        margin: .2rem 0;
+    }
+    img {
+        display: block;
+        max-width: 6.78rem;
+        margin: .21rem auto;                                   
+    }
+    video{
+        max-width: 7rem;
+        max-height: 3.93rem;
+    }
+    strong * {
+        font-weight: bold;
+    }
+
+     video::-webkit-media-controls-enclosure {
+        overflow:hidden;
+    }
+
+    video::-webkit-media-controls-panel {
+        padding-left: .7rem;
+    }
+}

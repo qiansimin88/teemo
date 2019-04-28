@@ -1,0 +1,15 @@
+{
+    "name": "tm-t-editorv2",
+    "version": "1.0.2",
+    "description": "无敌之编辑器v2",
+    "main": "editor.vue",
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "author": "wangtao",
+    "es6plugins": true,
+    "license": "ISC",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    }
+}

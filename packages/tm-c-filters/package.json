@@ -1,0 +1,14 @@
+{
+    "name": "tm-c-filters",
+    "version": "1.0.4",
+    "description": "数量，时间，字符截取 过滤器",
+    "scripts": {
+        "build": "av auto;npm publish;"
+    },
+    "main": "index.js",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "author": "lvzy",
+    "license": "ISC"
+}

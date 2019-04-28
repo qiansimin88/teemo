@@ -1,0 +1,77 @@
+.tm-m-avatar {
+	display: inline-block;
+	position: relative;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 12px;
+	a {
+		display: inline-block;
+		text-decoration: none;
+		//头像
+		img {
+			height: 0.5rem;
+			width: 0.5rem;
+			border-radius: 50%;
+			vertical-align: middle;
+			padding: 0.01rem;
+			background: #e4e4e4;
+			margin-right: 0.12rem;
+			border: 1px solid #e4e4e4;
+		}
+		//昵称
+		.tm-m-avatar-nick-name {
+			font-size: 0.24rem;
+			color: #336699;
+			vertical-align: middle;
+			margin-right: 0.2rem;
+		}
+		//认证图标
+		.tm-m-avatar-rz {
+			.teemo-renzhengshejishi:before {
+				margin-left: -0.02rem;
+			}
+			i {
+				width: 0.26rem;
+				height: 0.26rem;
+				font-size: 0.3rem;
+				line-height: 0.26rem;
+				color: #9900cc;
+				position: absolute;
+				top: .33rem;
+				left: .32rem;
+				background: #ffffff;
+				border-radius: 50%;
+			}
+		}
+	}
+	//圈主
+	.tm-m-avatar-group-owner {
+		display: none;
+		vertical-align: middle;
+		font-size: 0.2rem;
+		line-height: 0.24rem;
+		padding: 0 2px;
+		color: #ff653f;
+		border: 1px solid;
+		border-radius: 0.03rem;
+		margin-right: 0.05rem;
+		text-align: center;
+	}
+	//楼主
+	.tm-m-avatar-theme-owner {
+		display: none;
+		vertical-align: middle;
+		font-size: 0.18rem;
+		line-height: 0.24rem;
+		color: #00dab9;
+		border: 1px solid;
+		padding: 0 2px;
+		border-radius: 0.03rem;
+		margin-right: 0.1rem;
+		text-align: center;
+	}
+	
+	.show {
+		display: inline-block;
+	}
+}

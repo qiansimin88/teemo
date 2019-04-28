@@ -1,0 +1,11 @@
+{
+    "name": "tm-m-search",
+    "version": "0.0.1",
+    "description": "移动端搜索框",
+    "main": "index.vue",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "author": "lvzy",
+    "license": "ISC"
+}

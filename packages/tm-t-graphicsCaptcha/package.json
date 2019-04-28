@@ -1,0 +1,14 @@
+{
+    "name": "tm-t-graphicscaptcha",
+    "version": "1.0.3",
+    "description": "pc图形验证码",
+    "main": "index.js",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "author": "lvjl",
+    "license": "MIT"
+}

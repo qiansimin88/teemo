@@ -1,0 +1,96 @@
+# Captcha
+
+## Prequest
+
+```shell
+  brew install imagemagick
+  brew install graphicsmagick
+```
+
+## Abstract
+
+  this module is base on redis and gm. the major method is `generat`,will return json like this
+
+```js
+{
+    token, 用户在数据库中标识的token
+    base64, 验证码的base64图
+    select_cha   需要挑选的字符
+    select_cha_base64 需要挑选出来的字符图片
+}
+```
+  the field `base64` and `select_cha_base64` return to browser and show to user
+
+  DON'T RETURN `select_cha` to user,it is the position result to check
+
+  after user finsh captcha operation.front end pass the postion array to server.
+
+  for example,user click the 1st,3st and 4st position.you must pass the array [0,2,3] to server.
+
+  and on server, call the `check` method and pass in token and array user selected.
+
+  `check` will return the result :)
+
+## code for example
+
+```js
+
+const Captcha = require('tm-a-captcha');
+const config = {
+  host:'174.3.4.254',
+  port:'6379',
+  password:'o9i8u7y6'
+}
+let cap = new Captcha(config)
+
+//generat
+
+cap.generat().then((cap_json) => {
+})
+
+//check
+
+cap.check(cap_token,cap_select_arr).then((rs) => {
+  //check success
+}).catch(/**error**/)
+
+```
+
+
+
+# Class function
+
+
+### constructor([config])
+
+config
+
+```js
+{
+  host:REDIS_HOST,
+  port:REDIS_PORT,
+  password:PASSWORD,
+  expire : EXPIRE_IN_SECONDS //default 3600*2s (2 hours)
+}
+```
+
+### generat()
+
+  cap_json
+
+```js
+  {
+   	token, 用户在数据库中标识的token
+   	base64, 验证码的base64图
+   	select_cha   需要挑选的字符
+   	select_cha_base64 需要挑选出来的字符图片
+   }
+```
+
+  WARN: dont't return the `select_cha` to user!!!
+
+### check(cap_token,cap_select_arr)
+
+  cap_token : the captcha token
+
+  cap_select_arr : position array(position begin with 0)

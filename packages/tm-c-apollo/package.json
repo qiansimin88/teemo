@@ -1,0 +1,22 @@
+{
+  "name": "tm-c-apollo",
+  "version": "0.0.1",
+  "description": "Apollo client",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repo.3dker.cn/repository/private-npm/"
+  },
+  "keywords": [
+    "apollo",
+    "client"
+  ],
+  "author": "wlw",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.80.0",
+    "should": "^11.2.0"
+  }
+}

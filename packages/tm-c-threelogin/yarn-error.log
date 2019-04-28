@@ -1,0 +1,38 @@
+Arguments: 
+  /Users/lvjunling/.nvm/versions/node/v7.7.2/bin/node /Users/lvjunling/.nvm/versions/node/v7.7.2/bin/yarn add cropperjs --save
+
+PATH: 
+  /Users/lvjunling/.nvm/versions/node/v7.7.2/bin:/Users/lvjunling/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lvjunling/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin
+
+Yarn version: 
+  0.24.5
+
+Node version: 
+  7.7.2
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "tm-c-fuavatar",
+    "version": "0.0.1",
+    "description": "avatar upload with crop",
+    "main": "index.vue",
+    "repository": "https://repo.3dker.cn/repository/private-npm/",
+    "author": "lvjl",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://repo.3dker.cn/repository/npm/cropperjs: ETIMEDOUT
+      at Timeout._onTimeout (/Users/lvjunling/.nvm/versions/node/v7.7.2/lib/node_modules/yarn/node_modules/request/request.js:852:19)
+      at ontimeout (timers.js:380:14)
+      at tryOnTimeout (timers.js:244:5)
+      at Timer.listOnTimeout (timers.js:214:5)

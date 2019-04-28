@@ -1,0 +1,138 @@
+@import "./assets/iconfont.less";
+
+.view-utils {
+    position:absolute; right: 10px; top: 10px;
+    z-index: 200000; display:flex; width:139px; height:51px;
+    div {
+        color:#fff; padding:10px; cursor:pointer; flex:1;
+        i {
+            font-size:26px; color:#fff;
+        }
+    }
+}
+.preview-show-wrap {
+    position: relative;
+}
+.view-gui {
+    right: 30px; top: 80px;
+    width: 84px; border-radius: 3px;
+    z-index: 20000; background: #50535a;
+    border: 1px solid #777a81; position:absolute;
+    .view-gui-module {
+        padding: 10px 5px; border-top: 1px solid #777a81;
+        display:flex; position: relative;
+        &:first-child {
+            border-top:none;
+        }
+        &.col {
+            flex-direction:column;
+        }
+        .view-gui-line {
+            display:flex;
+            > div {
+                height:24px; line-height:24px; width:21.33px;
+                &.active {
+                    i { color:#c3c3c3; }
+                }
+            }
+        }
+        div {
+            flex:1; cursor:pointer;
+            i {
+                font-size:20px; color:#fff; height: 24px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+.progressMask {
+    position: fixed; width:100%; height:100%; z-index: 30000; text-align: center;
+    line-height: 50%;display: flex; justify-content: center;
+    align-items: center;
+    .preview-progress {
+        position: relative; overflow: hidden; width:60%;
+        background-color: #fff; box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+        height:5px; display: inline-block; border-radius: 2.5px;
+        .preview-progress-percent {
+            background: #2187e7; position: absolute; left:0; top:0; height:5px;
+            transition: width .6s ease; z-index: 1; border-radius: 2.5px;
+            box-shadow: 0 0 10px 1px rgba(0,198,255,.7);
+        }
+        .percent {
+            text-align: center; position: absolute; left:0; top:0; width:100%;
+            color:#333; z-index: 2; height: 10px; font-size: 12px; border-radius: 2.5px;
+            &.white {
+                color:#fff !important;
+            }
+        }
+    }
+}
+.p-container {
+    display: flex; justify-content: center; position: absolute; bottom:50px; color:#fff;
+    margin:auto; height:37px; cursor: pointer;
+    left:0; right:0; opacity: 0.7; text-align: center;
+    .preview-files-nav {
+        overflow: hidden; width:216px;
+        .p-list {
+            display:flex; transition: all 0.2s linear;
+            &.center {
+                justify-content: center;
+            }
+        }
+    }
+    .cube {
+        flex:0 0 30px; height:30px; line-height: 30px; text-align: center;
+        background: #50535a; border:1px solid #74777c; color:#adb0b7; margin:3px;
+        user-select: none;
+        &.active {
+            background: #fafcf9; color:#cacccb; border-color:#c4c8cb;
+        }
+    }
+}
+.shape-gui-control {
+  background: #fff; height:155px; position: relative;
+  box-sizing:border-box; padding:20px 26px 24px 20px;
+  border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;
+  .stage-func {
+    position: absolute; right:21px; top:15px;
+    .func-btns {
+      border:1px solid #ccc; width:33px;
+      height: 30px; line-height: 30px; background: #fff;
+      border-radius: 3px; cursor: pointer; float: right; margin-right:5px;
+    }
+  }
+  .shape-ctrl-switch {
+    display: flex;
+    li {
+      padding:5px 15px; cursor: pointer;
+      &.active {
+        border:1px solid #ccc; border-bottom:1px solid #fff; z-index:2;
+        border-top-left-radius: 3px; border-top-right-radius: 3px;
+        background: #fff; padding:5px 14px;
+        i {
+          vertical-align: 1px;
+        }
+      }
+    }
+  }
+  .shape-stage {
+    border-radius: 3px; border-top-left-radius: 0; margin-top:-1px;
+    padding:13px 8px; color:#666; font-size:14px; height:73px; overflow-y: auto;
+    box-sizing: border-box; border:1px solid #ccc; text-align: left;
+    .stage-1 {
+      line-height: 25px;
+      >p {
+        span {
+          margin-right:10px; padding:2px 30px 2px 0;
+        }
+      }
+    }
+  }
+}
+
+.slideBtn {
+    bottom: 35px; right: 35px; width:32px; height: 32px; line-height: 32px;
+    cursor: pointer;
+    color: #fff; border: 1px solid #fff; border-radius: 3px;
+    text-align: center; position: absolute;
+}

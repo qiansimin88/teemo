@@ -1,0 +1,16 @@
+{
+  "name": "tm-t-cascader",
+  "version": "1.0.6",
+  "description": "级联地址",
+  "author": "lvjl",
+  "main": "index.vue",
+  "scripts": {
+    "build": "av auto; npm publish;"
+  },
+  "publishConfig": {
+    "registry": "https://repo.3dker.cn/repository/private-npm/"
+  },
+  "dependencies": {
+    "tm-t-select": "0.0.8"
+  }
+}

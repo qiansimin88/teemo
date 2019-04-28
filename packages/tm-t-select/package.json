@@ -1,0 +1,14 @@
+{
+    "name": "tm-t-select",
+    "version": "0.0.9",
+    "description": "前台单选下拉框",
+    "main": "index.vue",
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "author": "lvzy",
+    "license": "ISC"
+}

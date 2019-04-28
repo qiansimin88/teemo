@@ -1,0 +1,23 @@
+{
+    "name": "3dker-redis-session",
+    "version": "0.0.7",
+    "description": "redis session",
+    "main": "index.js",
+    "scripts": {
+        "start": "supervisor index",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "av auto; npm publish;"
+    },
+    "author": "wuliangwei",
+    "license": "ISC",
+    "dependencies": {
+        "jsonwebtoken": "^7.2.1",
+        "redis": "^2.6.3"
+    },
+    "devDependencies": {
+        "should": "^11.1.2"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    }
+}

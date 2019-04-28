@@ -1,0 +1,329 @@
+// @import "custom";
+a{
+    text-decoration: none;
+}
+.icon-headerxiangxia-copy-qs {
+    top: 1px!important;
+}
+#sn-user-c-header {
+    background-color: #050827;
+}
+
+.sn-user-message-num {
+    position: absolute;  right: 0; top: 0; padding: 9px; color: #fff; background: #ff0000; border-radius: 50%;  display: block; font-size: 12px; width: 7px; height: 4px; line-height: 0; 
+}
+.sub-area {
+    display: none;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 0 0 2px 2px;
+    background-color: #36384e;
+    width: 100%;
+    z-index: 10000;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    line-height: 1;
+}
+.demo-badge {
+    width: 42px;
+        height: 42px;
+        background: #eee;
+        border-radius: 6px;
+        display: inline-block;
+}
+.contain{
+    padding-top: 70px;
+}
+.city-select{
+    display: inline-block;
+    text-align: center;
+    color: #666;
+    position: relative;
+    margin-right: 0;
+    margin-left: 10px;
+    /*list-style: none;*/
+    .city-label{
+        display: inline-block;
+        padding-left: 10px;
+        line-height: 40px;
+        height: 40px;
+        z-index: 999;
+        position: relative;
+        font-size: 24px;
+    }
+    ul.cityWrap{
+        right: -96px;
+        padding: 15px 10px;
+        width: 198px;
+        line-height: normal;
+        text-align: left;
+        display: none;
+
+        li{
+            display: inline-block;
+            padding: 5px;
+            width: 40px;
+            margin: 0 2px;
+            cursor: pointer;
+            &:hover{
+                background:#f5f5f5;
+                border-radius:2px;
+            }
+        }
+        .citySelected{
+            background:#f5f5f5;
+            border-radius:2px;
+        }
+    }
+    ul.cityWrap.citys-show{
+        display: block;
+    }
+}
+.ul-hor-2{
+    margin-left: 50px;
+}
+.icon-header{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.fixed-nav{
+	flex-wrap: nowrap;
+    width: 1180px;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+	align-items: center;
+	> div {
+		display: flex;
+		align-items: center;
+	}
+    .city{
+        display: inline-block;
+        font-size: 20px;
+        color: #fff;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+    .hz-logo{
+        display: inline-block;
+        vertical-align: middle;
+        width: 82px;
+        height: 26px;
+        line-height: 26px;
+        font-size: 24px;
+        color: #0074FF;
+    }
+    .hz-city-select{
+        position: relative;
+        display: inline-block;
+        margin-left: 11px;
+        vertical-align: middle;
+        padding: 0 8px;
+        color: #fff;
+        cursor: pointer;
+        &:hover{
+            background-color: rgba(54, 56, 78, 0.5);
+            .city-list{
+                display: block;
+            }
+        }
+        .select-city{
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1;
+            border: 1px solid #d9e9f4;
+            border-radius: 2px;
+            padding: 5px;
+            &:after{
+                display: inline-block;
+                content: '';
+                border: 3px solid transparent;
+                margin-left: 3px;
+                border-top-color: #fff;
+            }
+        }
+        .city-list{
+            display: none;
+            position: absolute;
+            background-color: #36384e;
+            top: 68px;
+            left: 0;
+            width: 232px;
+            padding: 7px 8px;
+            line-height: 1;
+            z-index: 10000;
+            .city-item{
+                display: inline-block;
+                font-size: 14px;
+                padding: 5px 10px;
+                margin: 4px 3px;
+                &:hover,
+                &.citySelected{
+                    background-color: #0074FF;
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+    .hz-nav{
+        position: relative;
+        // top: -2px;
+        display: flex;
+        flex: 1;
+        margin-left: 14px;
+        // justify-content: space-around;
+        // display: inline-block;
+        // vertical-align: middle;
+
+        height: 70px;
+        color: #fff;
+        .hz-navitem{
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 8px;
+            padding: 0 8px;
+            cursor: pointer;
+            position: relative;
+            font-size: 0;
+            @media (max-width: 1500px) {
+                // margin-right: 15px;
+            }
+            a.hz-item-name{
+                display: block;
+            }
+            .hz-item-name{
+                font-size: 16px;
+                vertical-align: middle;
+                color: #d9e9f4;
+                @media (max-width: 1500px) {
+                    font-size: 15px;
+                }
+            }
+            &:hover{
+                background-color: rgba(54, 56, 78, 0.5);
+                .sub-area {
+                    position: absolute;
+                    display: block;
+                    top: 68px;
+                    left: 0;
+                }
+                .hz-sub-nav{
+                    position: absolute;
+                    display: block;
+                    top: 72px;
+                    left: 0;
+                }
+            }
+        }
+        .icon-box{
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            width: 18px;
+            height: 70px;
+            overflow: hidden;
+            .icon-header{
+                font-size: 30px;
+                position: absolute;
+                right: -20px;
+                top: 0px;
+            }
+        }
+    }
+    .right-box{
+        height: 70px;
+        padding-right: 30px;
+        font-size: 0;
+        position: relative;
+        .icon-headergouwuche{
+            display: inline-block;
+            vertical-align: middle;
+            color: #fff;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        .message-count{
+            // position: relative;
+            // top: -5px;
+            // left: -3px;
+            position: absolute;
+            top: 16px;
+            left: 22px;
+            display: inline-block;
+            // width: 17px;
+            // height: 13px;
+            padding: 2px 5px;
+            line-height: 13px;
+            border-radius: 8px;
+            background-color: #FF0000;
+            color: #fff;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .btn{
+            display: inline-block;
+            vertical-align: middle;
+            background-color: #0074FF;
+            border-radius: 2px;
+            width: 79px;
+            height: 30px;
+            line-height: 30px;
+            border: none;
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+            // margin-left: 14px;
+            margin-left: 31px;
+            &:hover{
+                background-color: #338fff;
+            }
+        }
+        .user-box{
+            position: relative;
+            display: inline-block;
+            // margin-left: 14px;
+            margin-left: 31px;
+            color: #fff;
+            cursor: pointer;
+            &:before{
+                position: absolute;
+                content: '';
+                border: 3px solid transparent;
+                margin-left: 3px;
+                border-top-color: #fff;
+                right: -10px;
+                top: 50%;
+                margin-top: 1px;
+            }
+            &:hover .sub-area{
+                width: 90px;
+                display: block;
+                position: absolute;
+                top: 58px;
+                left: 50%;
+                margin-left: -45px;
+            }
+            .avatar{
+                display: inline-block;
+                vertical-align: middle;
+                margin-bottom: 0;
+                border-radius: 50%;
+            }
+            .nickname{
+                display: inline-block;
+                font-size: 12px;
+                vertical-align: middle;
+                margin-left: 5px;
+                width: 3em;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+        }
+    }
+}

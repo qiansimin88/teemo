@@ -1,0 +1,14 @@
+{
+    "name": "tm-m-actionsheet",
+    "version": "0.0.1",
+    "description": "手机端actionsheet弹层",
+    "main": "index.vue",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "author": "qsm",
+    "license": "MIT"
+}

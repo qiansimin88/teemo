@@ -1,0 +1,13 @@
+{
+    "name": "tm-t-backend-item",
+    "version": "1.0.1",
+    "description": "表单item",
+    "author": "lvjl",
+    "main": "index.vue",
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    }
+}

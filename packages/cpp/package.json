@@ -1,0 +1,17 @@
+{
+    "name": "cpp",
+    "version": "1.0.9",
+    "description": "cross platform preview",
+    "scripts": {
+        "build": "av auto; npm publish"
+    },
+    "main": "./index.vue",
+    "author": "royjang",
+    "license": "MIT",
+    "dependencies": {
+        "pixi.js": "4.5.3"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    }
+}

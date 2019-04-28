@@ -1,0 +1,10 @@
+{
+    "name": "tm-m-avatar",
+    "version": "0.0.11",
+    "description": "wap端头像组件",
+    "main": "index.vue",
+    "author": "wlw",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    }
+}

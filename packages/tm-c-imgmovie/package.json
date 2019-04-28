@@ -1,0 +1,14 @@
+{
+    "name": "tm-c-imgmovie",
+    "version": "0.0.7",
+    "description": "一身才华 一触即发 让人叹为观止的图片预览组件 如同电影长镜头卡司一般让人惊艳 👍",
+    "main": "index.js",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "author": "qsm",
+    "license": "MIT"
+}

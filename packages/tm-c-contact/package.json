@@ -1,0 +1,19 @@
+{
+    "name": "tm-c-contact",
+    "version": "0.0.7",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test/*",
+        "build": "av auto;npm publish;"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "author": "wlw",
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "^3.3.0",
+        "node-dubbo-comsumer": "^1.0.5"
+    }
+}

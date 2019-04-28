@@ -1,0 +1,13 @@
+{
+    "name": "tm-t-timepicker",
+    "version": "1.0.5",
+    "description": "时间选择控件",
+    "author": "lvjl",
+    "main": "index.vue",
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    }
+}

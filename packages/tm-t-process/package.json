@@ -1,0 +1,14 @@
+{
+    "name": "tm-t-process",
+    "version": "0.0.9",
+    "description": "封装的 傻瓜式 网页流程进度展示",
+    "main": "index.js",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "author": "qsm",
+    "license": "MIT"
+}

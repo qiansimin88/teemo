@@ -1,0 +1,14 @@
+{
+    "name": "tm-m-switch",
+    "version": "0.0.3",
+    "description": "移动端圆形切换按键",
+    "main": "index.vue",
+    "scripts": {
+        "build": "av auto;npm publish;"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "author": "lvzy",
+    "license": "ISC"
+}

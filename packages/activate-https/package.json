@@ -1,0 +1,13 @@
+{
+    "name": "activate-https",
+    "version": "0.0.6",
+    "description": "启用https",
+    "author": "wlw",
+    "main": "index.js",
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    }
+}

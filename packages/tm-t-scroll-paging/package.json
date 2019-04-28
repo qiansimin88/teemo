@@ -1,0 +1,14 @@
+{
+    "name": "tm-t-scroll-paging",
+    "version": "0.1.4",
+    "description": "前台滑动按键分页",
+    "main": "index.vue",
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "author": "lvzy",
+    "license": "ISC"
+}

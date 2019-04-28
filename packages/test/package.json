@@ -1,0 +1,13 @@
+{
+    "name": "test",
+    "version": "0.1.47",
+    "author": "roy",
+    "description": "teemo 测试包",
+    "scripts": {
+        "build": "av auto; npm publish"
+    },
+    "main": "./index.vue",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    }
+}

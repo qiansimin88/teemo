@@ -1,0 +1,15 @@
+{
+	"name": "tm-c-error",
+	"version": "0.0.1",
+	"description": "全局捕获错误",
+	"main": "index.js",
+	"es6plugins": true,
+	"scripts": {
+		"build": "av auto;npm publish;"
+	},
+	"publishConfig": {
+		"registry": "https://repo.3dker.cn/repository/private-npm/"
+	},
+	"author": "wlw",
+	"license": "ISC"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "tm-m-headers",
+    "version": "1.0.9",
+    "description": "mobile header",
+    "main": "./src/index.vue",
+    "scripts": {
+        "build": "av auto;npm publish;"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "dependencies": {
+        "vue": "^1.0.26",
+        "vue-router": "^0.7.13",
+        "vue-validator": "^2.1.6"
+    },
+    "devDependencies": {
+        "vue-hot-reload-api": "^1.2.0",
+        "vue-html-loader": "^1.0.0",
+        "vue-loader": "^8.3.0",
+        "vue-style-loader": "^1.0.0"
+    }
+}

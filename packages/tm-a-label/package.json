@@ -1,0 +1,14 @@
+{
+    "name": "tm-a-label",
+    "version": "0.0.18",
+    "description": "3d云平台前后台常用的添加标签组件",
+    "main": "index.vue",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "author": "qsm",
+    "license": "MIT"
+}

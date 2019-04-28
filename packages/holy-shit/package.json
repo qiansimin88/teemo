@@ -1,0 +1,19 @@
+{
+    "name": "holy-shit",
+    "version": "0.1.16",
+    "author": "roy",
+    "description": "模型加载,计算及截图",
+    "es6plugins": true,
+    "scripts": {
+        "build": "av auto; npm publish"
+    },
+    "main": "./index.js",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "dependencies": {
+        "axios": "^0.16.1",
+        "webpack": "^2.3.3",
+        "worker-loader": "^0.8.0"
+    }
+}

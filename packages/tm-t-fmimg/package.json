@@ -1,0 +1,17 @@
+{
+    "name": "tm-t-fmimg",
+    "version": "3.0.3",
+    "description": "前后台，表单中的单张图片上传以及修改",
+    "main": "index.vue",
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "dependencies": {
+        "tm-c-oss": "0.0.4"
+    },
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "author": "lvzy",
+    "license": "ISC"
+}

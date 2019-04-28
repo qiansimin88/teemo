@@ -1,0 +1,14 @@
+{
+    "name": "tm-m-scroll",
+    "version": "1.0.8",
+    "description": "移动端滑动分页",
+    "main": "index.vue",
+    "publishConfig": {
+        "registry": "https://repo.3dker.cn/repository/private-npm/"
+    },
+    "scripts": {
+        "build": "av auto; npm publish;"
+    },
+    "author": "lvzy",
+    "license": "ISC"
+}
